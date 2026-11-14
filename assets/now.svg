@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="372" viewBox="0 0 1200 372" fill="none" role="img" aria-label="Now building: AI receptionist, prediction-market trading bot, NQ futures indicator">
+<title>Now building: AI receptionist, prediction-market trading bot, NQ futures indicator</title>
+<style>
+text{font-family:'Inter','Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','SF Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+.ln{opacity:0;animation:ln .45s ease-out forwards}
+@keyframes ln{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}
+.cur{opacity:0;animation:on 0s 2.86s forwards, blink 1s 2.86s steps(1) infinite}
+@keyframes on{to{opacity:1}}
+@keyframes blink{50%{opacity:0}}
+</style>
+<defs>
+<pattern id="gridn" width="40" height="40" patternUnits="userSpaceOnUse">
+  <path d="M40 0H0V40" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+</pattern>
+<radialGradient id="glowVn" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 40) rotate(35) scale(620 360)">
+  <stop stop-color="#A78BFA" stop-opacity="0.22"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="glowCn" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 420) rotate(-20) scale(560 320)">
+  <stop stop-color="#5EEAD4" stop-opacity="0.16"/><stop offset="1" stop-color="#5EEAD4" stop-opacity="0"/>
+</radialGradient><clipPath id="c"><rect width="1200" height="372" rx="22"/></clipPath></defs>
+<g clip-path="url(#c)">
+<rect width="1200" height="372" fill="#0B0F16"/>
+<rect width="1200" height="372" fill="url(#gridn)" opacity=".6"/>
+<rect width="1200" height="52" fill="#FFFFFF" fill-opacity="0.03"/>
+<line x1="0" y1="52" x2="1200" y2="52" stroke="#1A212C"/>
+<circle cx="32" cy="26" r="6.5" fill="#FF5F57"/><circle cx="54" cy="26" r="6.5" fill="#FEBC2E"/><circle cx="76" cy="26" r="6.5" fill="#28C840"/>
+<text class="mono" x="600.0" y="31" font-size="13" fill="#8B98AA" text-anchor="middle" letter-spacing="1">eli@calgary — ~/now — zsh</text>
+<g class="ln" style="animation-delay:0.30s"><text class="mono" x="44" y="104" font-size="16"><tspan fill="#34D399">➜</tspan><tspan fill="#A78BFA">  ~</tspan><tspan fill="#EEF2F7">  whoami --short</tspan></text></g><g class="ln" style="animation-delay:0.62s"><text class="mono" x="70" y="134" font-size="16"><tspan fill="#C3CCD8">CS @ University of Calgary</tspan><tspan fill="#4E5968">  ·  </tspan><tspan fill="#C3CCD8">software + data + markets</tspan></text></g><g class="ln" style="animation-delay:0.94s"><text class="mono" x="44" y="174" font-size="16"><tspan fill="#34D399">➜</tspan><tspan fill="#A78BFA">  ~</tspan><tspan fill="#EEF2F7">  ls ~/building</tspan></text></g><g class="ln" style="animation-delay:1.26s"><text class="mono" x="70" y="204" font-size="16"><tspan fill="#5EEAD4">▸ ai-receptionist</tspan></text><text x="300" y="204" font-size="16" fill="#8B98AA">voice + SMS agent that answers calls and books appointments for small businesses</text></g><g class="ln" style="animation-delay:1.58s"><text class="mono" x="70" y="234" font-size="16"><tspan fill="#5EEAD4">▸ prediction-bot</tspan></text><text x="300" y="234" font-size="16" fill="#8B98AA">15-minute BTC prediction-market trading system, hybrid signals + risk limits</text></g><g class="ln" style="animation-delay:1.90s"><text class="mono" x="70" y="264" font-size="16"><tspan fill="#5EEAD4">▸ nq-indicator</tspan></text><text x="300" y="264" font-size="16" fill="#8B98AA">TradingView indicator &amp; strategy for NQ futures, validated with a Python backtester</text></g><g class="ln" style="animation-delay:2.22s"><text class="mono" x="44" y="304" font-size="16"><tspan fill="#34D399">➜</tspan><tspan fill="#A78BFA">  ~</tspan><tspan fill="#EEF2F7">  echo $GOAL</tspan></text></g><g class="ln" style="animation-delay:2.54s"><text class="mono" x="70" y="334" font-size="16"><tspan fill="#5EEAD4">ship things people actually use</tspan></text></g>
+<rect class="cur" x="368" y="319" width="10" height="19" fill="#5EEAD4"/>
+</g>
+<rect x=".5" y=".5" width="1199" height="371" rx="21.5" stroke="#FFFFFF" stroke-opacity="0.08"/>
+</svg>

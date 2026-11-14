@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" fill="none" role="img" aria-label="Self-Checkout System">
+<title>Self-Checkout System</title>
+<style>
+text{font-family:'Inter','Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','SF Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+.rise{opacity:0;animation:rise .8s .1s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes fadein{to{opacity:1}}
+@keyframes draw{to{stroke-dashoffset:0}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2s ease-out infinite}
+@keyframes pulse{0%{opacity:.7;transform:scale(1)}100%{opacity:0;transform:scale(3)}}
+.laser{animation:laser 1.8s ease-in-out infinite alternate}
+@keyframes laser{from{transform:translateY(-34px)}to{transform:translateY(34px)}}
+.rc{opacity:0;animation:fadein .4s forwards}
+</style>
+<defs>
+<pattern id="gridccheckout" width="40" height="40" patternUnits="userSpaceOnUse">
+  <path d="M40 0H0V40" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+</pattern>
+<radialGradient id="glowVccheckout" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 40) rotate(35) scale(620 360)">
+  <stop stop-color="#A78BFA" stop-opacity="0.22"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="glowCccheckout" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 420) rotate(-20) scale(560 320)">
+  <stop stop-color="#5EEAD4" stop-opacity="0.16"/><stop offset="1" stop-color="#5EEAD4" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="spot" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(470 40) scale(380 240)">
+<stop stop-color="#FBBF24" stop-opacity=".16"/><stop offset="1" stop-color="#FBBF24" stop-opacity="0"/></radialGradient>
+<clipPath id="cc"><rect width="600" height="360" rx="22"/></clipPath></defs>
+<g clip-path="url(#cc)">
+<rect width="600" height="360" fill="#0B0F16"/>
+<rect width="600" height="360" fill="url(#spot)"/>
+<rect width="600" height="180" fill="url(#gridccheckout)" opacity=".8"/>
+<line x1="0" y1="180" x2="600" y2="180" stroke="#1A212C"/>
+<rect x="56" y="62" width="248" height="98" rx="10" fill="#FFFFFF" fill-opacity=".03" stroke="#1A212C"/>
+<rect x="70" y="72" width="4" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="78" y="72" width="4" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="85" y="72" width="6" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="95" y="72" width="2" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="99" y="72" width="6" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="108" y="72" width="6" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="116" y="72" width="2" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="121" y="72" width="3" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="126" y="72" width="2" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="132" y="72" width="2" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="138" y="72" width="4" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="145" y="72" width="6" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="155" y="72" width="2" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="161" y="72" width="2" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="167" y="72" width="2" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="171" y="72" width="2" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="175" y="72" width="2" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="181" y="72" width="2" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="186" y="72" width="3" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="192" y="72" width="6" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="200" y="72" width="6" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="208" y="72" width="3" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="214" y="72" width="2" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="220" y="72" width="2" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="225" y="72" width="3" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="231" y="72" width="6" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="239" y="72" width="3" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="245" y="72" width="2" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="251" y="72" width="3" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="256" y="72" width="2" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="262" y="72" width="2" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="267" y="72" width="2" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="272" y="72" width="4" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="278" y="72" width="2" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="284" y="72" width="2" height="78" fill="#EEF2F7" fill-opacity=".9"/><rect x="288" y="72" width="2" height="78" fill="#EEF2F7" fill-opacity=".9"/>
+<rect class="laser" x="62" y="110" width="236" height="2.5" fill="#F87171"/>
+<rect class="laser" x="62" y="106" width="236" height="10" fill="#F87171" fill-opacity=".18"/>
+<rect x="336" y="62" width="228" height="98" rx="8" fill="#FFFFFF" fill-opacity=".03" stroke="#1A212C" stroke-dasharray="3 4"/>
+<line x1="352" y1="134" x2="548" y2="134" stroke="#4E5968" stroke-dasharray="2 3" class="rc" style="animation-delay:1.9s"/>
+<g class="rc" style="animation-delay:0.8s"><text class="mono" x="352" y="84" font-size="11.5" fill="#C3CCD8" letter-spacing=".5">ESPRESSO BEANS</text><text class="mono" x="548" y="84" font-size="11.5" fill="#C3CCD8" text-anchor="end">$18.99</text></g><g class="rc" style="animation-delay:1.2s"><text class="mono" x="352" y="104" font-size="11.5" fill="#C3CCD8" letter-spacing=".5">OAT MILK 1L</text><text class="mono" x="548" y="104" font-size="11.5" fill="#C3CCD8" text-anchor="end">$4.49</text></g><g class="rc" style="animation-delay:1.6s"><text class="mono" x="352" y="124" font-size="11.5" fill="#C3CCD8" letter-spacing=".5">SOURDOUGH</text><text class="mono" x="548" y="124" font-size="11.5" fill="#C3CCD8" text-anchor="end">$6.25</text></g><g class="rc" style="animation-delay:2.0s"><text class="mono" x="352" y="144" font-size="11.5" fill="#FBBF24" letter-spacing=".5">TOTAL</text><text class="mono" x="548" y="144" font-size="11.5" fill="#FBBF24" text-anchor="end">$29.73</text></g>
+<text class="mono" x="56" y="172" font-size="11" fill="#4E5968" letter-spacing="1">SESSION <tspan fill="#34D399">ACTIVE</tspan>  ·  PAY <tspan fill="#C3CCD8">CASH / CARD</tspan></text>
+<text class="mono" x="32" y="40" font-size="12" fill="#FBBF24" letter-spacing="2">04 · SOFTWARE ENGINEERING</text>
+<rect x="476.8" y="24" width="91" height="28" rx="14.0" fill="#FBBF24" fill-opacity="0.08" stroke="#FBBF24"/><text class="mono" x="522.3" y="42.1" font-size="11.5" fill="#FBBF24" text-anchor="middle" letter-spacing="0.2">SOURCE ↗</text>
+<g class="rise">
+<text x="32" y="220" font-size="25" font-weight="750" fill="#EEF2F7" letter-spacing="-0.6">Self-Checkout System</text>
+<text x="32" y="248" font-size="15" fill="#8B98AA">Retail self-checkout in Java: sessions, payments,</text><text x="32" y="270" font-size="15" fill="#8B98AA">predictive resource management and a GUI.</text>
+<rect x="32" y="306" width="62" height="28" rx="14.0" fill="#FFFFFF" fill-opacity="0.025" stroke="#1A212C"/><text class="mono" x="63.0" y="324.3" font-size="12" fill="#C3CCD8" text-anchor="middle" letter-spacing="0.2">Java</text><rect x="102" y="306" width="54" height="28" rx="14.0" fill="#FFFFFF" fill-opacity="0.025" stroke="#1A212C"/><text class="mono" x="129.0" y="324.3" font-size="12" fill="#C3CCD8" text-anchor="middle" letter-spacing="0.2">OOP</text><rect x="164" y="306" width="54" height="28" rx="14.0" fill="#FFFFFF" fill-opacity="0.025" stroke="#1A212C"/><text class="mono" x="191.0" y="324.3" font-size="12" fill="#C3CCD8" text-anchor="middle" letter-spacing="0.2">GUI</text><rect x="226" y="306" width="123" height="28" rx="14.0" fill="#FFFFFF" fill-opacity="0.025" stroke="#1A212C"/><text class="mono" x="287.5" y="324.3" font-size="12" fill="#C3CCD8" text-anchor="middle" letter-spacing="0.2">Hardware I/O</text>
+</g>
+</g>
+<rect x=".5" y=".5" width="599" height="359" rx="21.5" stroke="#FFFFFF" stroke-opacity="0.08"/>
+</svg>

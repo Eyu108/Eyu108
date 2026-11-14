@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="84" viewBox="0 0 1200 84" fill="none" role="img" aria-label="Where I focus">
+<title>Where I focus</title>
+<style>
+text{font-family:'Inter','Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','SF Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+.grow{transform-origin:left;transform:scaleX(0);animation:grow 1.4s .2s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes grow{to{transform:scaleX(1)}}
+</style>
+<defs><linearGradient id="hl" x1="319.6" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5EEAD4" stop-opacity=".9"/><stop offset=".35" stop-color="#A78BFA" stop-opacity=".45"/><stop offset="1" stop-color="#2A3340" stop-opacity="0"/></linearGradient></defs>
+<text class="mono" x="2" y="52" font-size="15" font-weight="700" fill="#5EEAD4" letter-spacing="1">04</text>
+<text x="40" y="54" font-size="30" font-weight="750" fill="#EEF2F7" letter-spacing="-0.8">Where I focus</text>
+<rect class="grow" x="320" y="44" width="710" height="1.5" fill="url(#hl)"/>
+<text class="mono" x="1198" y="50" font-size="12.5" fill="#8B98AA" text-anchor="end" letter-spacing="1.6">DOMAINS + IMPACT</text>
+</svg>

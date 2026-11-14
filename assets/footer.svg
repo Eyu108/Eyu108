@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" fill="none" role="img" aria-label="Thanks for stopping by">
+<title>Thanks for stopping by</title>
+<style>
+text{font-family:'Inter','Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','SF Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+.ln{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 3s cubic-bezier(.6,.1,.2,1) forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.txt{opacity:0;animation:fadein 1s 1.2s forwards}@keyframes fadein{to{opacity:1}}
+</style>
+<defs><linearGradient id="fl" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A78BFA" stop-opacity="0"/><stop offset=".25" stop-color="#A78BFA" stop-opacity=".8"/><stop offset="1" stop-color="#5EEAD4"/></linearGradient></defs>
+<path class="ln" d="M0 82.8 L20 87.7 L40 84.3 L60 80.5 L80 81.7 L100 88.3 L120 89.6 L140 84.8 L160 81.5 L180 81.1 L200 84.6 L220 84.3 L240 82.6 L260 81.5 L280 82.0 L300 78.8 L320 78.6 L340 79.4 L360 85.6 L380 85.2 L400 88.7 L420 84.5 L440 87.6 L460 88.0 L480 85.7 L500 85.4 L520 88.7 L540 87.2 L560 91.0 L580 96.7 L600 102.9 L620 109.0 L640 103.8 L660 104.9 L680 102.0 L700 105.5 L720 105.6 L740 106.3 L760 107.9 L780 105.3 L800 105.5 L820 102.5 L840 110.4 L860 108.4 L880 108.3 L900 101.1 L920 95.1 L940 91.6 L960 94.6 L980 97.4 L1000 98.3 L1020 95.6 L1040 102.6 L1060 98.4 L1080 94.8 L1100 96.5 L1120 92.4 L1140 93.2 L1160 96.8 L1180 96.4 L1200 97.8" pathLength="1" stroke="url(#fl)" stroke-width="2.2" stroke-linejoin="round"/>
+<circle cx="1198" cy="97.8" r="5" fill="#5EEAD4" class="txt"/>
+<text class="mono txt" x="600.0" y="142" font-size="12.5" fill="#8B98AA" text-anchor="middle" letter-spacing="3">THANKS FOR STOPPING BY  ·  ALWAYS SHIPPING</text>
+</svg>

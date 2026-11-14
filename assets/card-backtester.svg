@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" fill="none" role="img" aria-label="Trading Strategy Backtester">
+<title>Trading Strategy Backtester</title>
+<style>
+text{font-family:'Inter','Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','SF Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+.rise{opacity:0;animation:rise .8s .1s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes fadein{to{opacity:1}}
+@keyframes draw{to{stroke-dashoffset:0}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2s ease-out infinite}
+@keyframes pulse{0%{opacity:.7;transform:scale(1)}100%{opacity:0;transform:scale(3)}}
+.eq{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 2.4s .3s cubic-bezier(.6,.1,.2,1) forwards}
+.mk{opacity:0;animation:fadein .4s forwards}.bfade{opacity:0;animation:fadein 1s .2s forwards}
+</style>
+<defs>
+<pattern id="gridcbacktester" width="40" height="40" patternUnits="userSpaceOnUse">
+  <path d="M40 0H0V40" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+</pattern>
+<radialGradient id="glowVcbacktester" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 40) rotate(35) scale(620 360)">
+  <stop stop-color="#A78BFA" stop-opacity="0.22"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="glowCcbacktester" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 420) rotate(-20) scale(560 320)">
+  <stop stop-color="#5EEAD4" stop-opacity="0.16"/><stop offset="1" stop-color="#5EEAD4" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="spot" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(470 40) scale(380 240)">
+<stop stop-color="#5EEAD4" stop-opacity=".16"/><stop offset="1" stop-color="#5EEAD4" stop-opacity="0"/></radialGradient>
+<clipPath id="cc"><rect width="600" height="360" rx="22"/></clipPath></defs>
+<g clip-path="url(#cc)">
+<rect width="600" height="360" fill="#0B0F16"/>
+<rect width="600" height="360" fill="url(#spot)"/>
+<rect width="600" height="180" fill="url(#gridcbacktester)" opacity=".8"/>
+<line x1="0" y1="180" x2="600" y2="180" stroke="#1A212C"/>
+<path d="M40.0 118.7 L53.3 118.9 L66.6 119.0 L79.9 117.8 L93.2 117.0 L106.5 116.3 L119.8 114.3 L133.1 113.0 L146.4 116.0 L159.7 116.5 L173.0 116.3 L186.3 117.1 L199.6 116.0 L212.9 112.4 L226.2 109.8 L239.5 110.9 L252.8 110.7 L266.1 109.9 L279.4 111.4 L292.7 108.7 L306.0 107.9 L319.3 110.4 L332.6 107.5 L345.9 107.8 L359.2 109.0 L372.5 108.8 L385.8 106.8 L399.1 104.7 L412.4 103.6 L425.7 105.8 L439.0 106.6 L452.3 108.6 L465.6 109.3 L478.9 112.8 L492.2 112.0 L505.5 110.5 L518.8 115.0 L532.1 116.0 L545.4 113.8 L558.7 113.2" stroke="#4E5968" stroke-width="2" stroke-dasharray="4 5" class="bfade"/>
+<path class="eq" d="M40.0 120.1 L53.3 120.3 L66.6 120.1 L79.9 120.9 L93.2 118.4 L106.5 116.8 L119.8 118.6 L133.1 116.9 L146.4 118.7 L159.7 119.2 L173.0 117.8 L186.3 116.1 L199.6 114.7 L212.9 114.9 L226.2 113.1 L239.5 113.2 L252.8 112.8 L266.1 110.9 L279.4 110.7 L292.7 110.7 L306.0 111.1 L319.3 109.5 L332.6 108.5 L345.9 110.8 L359.2 110.1 L372.5 108.4 L385.8 109.8 L399.1 107.9 L412.4 104.7 L425.7 103.6 L439.0 101.7 L452.3 101.5 L465.6 102.2 L478.9 99.2 L492.2 100.6 L505.5 97.4 L518.8 99.6 L532.1 98.1 L545.4 99.0 L558.7 96.3" pathLength="1" stroke="#5EEAD4" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon class="mk" style="animation-delay:1.00s" points="113.8,134.6 125.8,134.6 119.8,124.6" fill="#34D399"/><polygon class="mk" style="animation-delay:1.35s" points="220.2,97.1 232.2,97.1 226.2,107.1" fill="#F87171"/><polygon class="mk" style="animation-delay:1.70s" points="326.6,124.5 338.6,124.5 332.6,114.5" fill="#34D399"/><polygon class="mk" style="animation-delay:2.05s" points="446.3,85.5 458.3,85.5 452.3,95.5" fill="#F87171"/>
+<circle class="pulse" cx="558.7" cy="96.3" r="4.5" fill="#5EEAD4"/><circle cx="558.7" cy="96.3" r="4.5" fill="#5EEAD4"/>
+<text class="mono" x="32" y="166" font-size="11" fill="#4E5968" letter-spacing="1">STRATEGY <tspan fill="#5EEAD4">━</tspan>  BUY &amp; HOLD <tspan fill="#8B98AA">┅</tspan>   SHARPE <tspan fill="#34D399">1.84</tspan></text>
+<text class="mono" x="32" y="40" font-size="12" fill="#5EEAD4" letter-spacing="2">01 · QUANT</text>
+<rect x="454.6" y="24" width="113" height="28" rx="14.0" fill="#5EEAD4" fill-opacity="0.08" stroke="#5EEAD4"/><text class="mono" x="511.1" y="42.1" font-size="11.5" fill="#5EEAD4" text-anchor="middle" letter-spacing="0.2">LIVE DEMO ↗</text>
+<g class="rise">
+<text x="32" y="220" font-size="25" font-weight="750" fill="#EEF2F7" letter-spacing="-0.6">Trading Strategy Backtester</text>
+<text x="32" y="248" font-size="15" fill="#8B98AA">Momentum (SMA crossover) and mean-reversion (RSI)</text><text x="32" y="270" font-size="15" fill="#8B98AA">strategies with risk metrics, in an interactive app.</text>
+<rect x="32" y="306" width="77" height="28" rx="14.0" fill="#FFFFFF" fill-opacity="0.025" stroke="#1A212C"/><text class="mono" x="70.5" y="324.3" font-size="12" fill="#C3CCD8" text-anchor="middle" letter-spacing="0.2">Python</text><rect x="117" y="306" width="100" height="28" rx="14.0" fill="#FFFFFF" fill-opacity="0.025" stroke="#1A212C"/><text class="mono" x="167.0" y="324.3" font-size="12" fill="#C3CCD8" text-anchor="middle" letter-spacing="0.2">Streamlit</text><rect x="225" y="306" width="77" height="28" rx="14.0" fill="#FFFFFF" fill-opacity="0.025" stroke="#1A212C"/><text class="mono" x="263.5" y="324.3" font-size="12" fill="#C3CCD8" text-anchor="middle" letter-spacing="0.2">Pandas</text><rect x="310" y="306" width="77" height="28" rx="14.0" fill="#FFFFFF" fill-opacity="0.025" stroke="#1A212C"/><text class="mono" x="348.5" y="324.3" font-size="12" fill="#C3CCD8" text-anchor="middle" letter-spacing="0.2">Plotly</text>
+</g>
+</g>
+<rect x=".5" y=".5" width="599" height="359" rx="21.5" stroke="#FFFFFF" stroke-opacity="0.08"/>
+</svg>

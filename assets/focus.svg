@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" fill="none" role="img" aria-label="Focus: energy &amp; finance, software engineering, research &amp; AI">
+<title>Focus: energy &amp; finance, software engineering, research &amp; AI</title>
+<style>
+text{font-family:'Inter','Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','SF Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+.col{opacity:0;animation:rise .8s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+</style>
+<g class="col" style="animation-delay:0.10s">
+<rect x="0.5" y=".5" width="387" height="329" rx="20" fill="#0B0F16" stroke="#FFFFFF" stroke-opacity=".08"/>
+<rect x="24" y="44" width="52" height="52" rx="14" fill="#5EEAD4" fill-opacity=".1" stroke="#5EEAD4" stroke-opacity=".35"/>
+<path d="M34 82 l12 -10 l10 6 l16 -18" stroke="#5EEAD4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="72" cy="60" r="3" fill="#5EEAD4"/>
+<text class="mono" x="28" y="128" font-size="11.5" fill="#5EEAD4" letter-spacing="2">ENERGY &amp; FINANCE</text>
+<text x="28" y="158" font-size="23" font-weight="750" fill="#EEF2F7" letter-spacing="-0.5">Markets, modelled.</text>
+<circle cx="40" cy="191" r="3" fill="#5EEAD4"/><text x="54" y="196" font-size="15.5" fill="#C3CCD8">Forecasting pipelines explained with SHAP</text><circle cx="40" cy="227" r="3" fill="#5EEAD4"/><text x="54" y="232" font-size="15.5" fill="#C3CCD8">Backtests with costs + walk-forward splits</text><circle cx="40" cy="263" r="3" fill="#5EEAD4"/><text x="54" y="268" font-size="15.5" fill="#C3CCD8">VaR / CVaR and factor risk tooling</text>
+</g><g class="col" style="animation-delay:0.25s">
+<rect x="404.5" y=".5" width="387" height="329" rx="20" fill="#0B0F16" stroke="#FFFFFF" stroke-opacity=".08"/>
+<rect x="428" y="44" width="52" height="52" rx="14" fill="#A78BFA" fill-opacity=".1" stroke="#A78BFA" stroke-opacity=".35"/>
+<path d="M448 58 l-10 12 l10 12 M470 58 l10 12 l-10 12 M464 54 l-10 32" stroke="#A78BFA" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="mono" x="432" y="128" font-size="11.5" fill="#A78BFA" letter-spacing="2">SOFTWARE ENGINEERING</text>
+<text x="432" y="158" font-size="23" font-weight="750" fill="#EEF2F7" letter-spacing="-0.5">Built to ship.</text>
+<circle cx="444" cy="191" r="3" fill="#A78BFA"/><text x="458" y="196" font-size="15.5" fill="#C3CCD8">Full-stack apps: React + FastAPI / Node</text><circle cx="444" cy="227" r="3" fill="#A78BFA"/><text x="458" y="232" font-size="15.5" fill="#C3CCD8">APIs and real-time dashboards</text><circle cx="444" cy="263" r="3" fill="#A78BFA"/><text x="458" y="268" font-size="15.5" fill="#C3CCD8">Dockerised cloud deployments</text>
+</g><g class="col" style="animation-delay:0.40s">
+<rect x="808.5" y=".5" width="387" height="329" rx="20" fill="#0B0F16" stroke="#FFFFFF" stroke-opacity=".08"/>
+<rect x="832" y="44" width="52" height="52" rx="14" fill="#34D399" fill-opacity=".1" stroke="#34D399" stroke-opacity=".35"/>
+<path d="M863 52 l4 12 l12 4 l-12 4 l-4 12 l-4 -12 l-12 -4 l12 -4 z" stroke="#34D399" stroke-width="2.2" stroke-linejoin="round"/>
+<text class="mono" x="836" y="128" font-size="11.5" fill="#34D399" letter-spacing="2">RESEARCH &amp; AI</text>
+<text x="836" y="158" font-size="23" font-weight="750" fill="#EEF2F7" letter-spacing="-0.5">Curious by default.</text>
+<circle cx="848" cy="191" r="3" fill="#34D399"/><text x="862" y="196" font-size="15.5" fill="#C3CCD8">Modelling &amp; quantitative research</text><circle cx="848" cy="227" r="3" fill="#34D399"/><text x="862" y="232" font-size="15.5" fill="#C3CCD8">Green computing</text><circle cx="848" cy="263" r="3" fill="#34D399"/><text x="862" y="268" font-size="15.5" fill="#C3CCD8">AI for education equity</text>
+</g>
+</svg>
